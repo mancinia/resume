@@ -1,3 +1,4 @@
+import { useState, useEffect, useRef } from "react";
 import * as React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
@@ -16,6 +17,30 @@ import CardExpGain from "./components/CardExpGain";
 import CardExpBOA from "./components/CardExpBOA";
 
 function App() {
+  const [activeSection, setActiveSection] = useState(null);
+  const observer = useRef(null);
+
+  useEffect(() => {
+    observer.current = new IntersectionObserver((entries) => {
+      const visibleSection = entries.find((entry) => entry.isIntersecting)?.target;
+      if (visibleSection) {
+        setActiveSection(visibleSection.id);
+      }
+    });
+
+    const sections = document.querySelectorAll('[data-section]');
+
+    sections.forEach((section) => {
+      observer.current.observe(section);
+    });
+
+    return () => {
+      sections.forEach((section) => {
+        observer.current.unobserve(section);
+      });
+    };
+  }, []);
+
   return (
     <div className="App">
       <Nav />
@@ -30,7 +55,7 @@ function App() {
               display: { xs: "none", sm: "none", md: "block" },
             }}
           >
-            <LeftNav />
+            <LeftNav active={activeSection} />
           </Grid>
           <Grid xs={12} md={9}>
             <Box>
