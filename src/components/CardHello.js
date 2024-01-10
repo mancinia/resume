@@ -21,7 +21,7 @@ theme.typography.h3 = {
 function CardHello() {
   return (
     <>
-      <Box id="hello" sx={{ paddingTop: "100px" }}></Box>
+      <Box data-section id="hello" sx={{ paddingTop: "100px" }}></Box>
       <Box
         sx={{
           marginTop: "50px",
@@ -137,7 +137,7 @@ function CardHello() {
             >
               I specialize in:{" "}
             </Typography>
-            <Typography
+            <Box
               sx={{
                 fontFamily: "DM Sans",
                 fontSize: "24px",
@@ -155,15 +155,16 @@ function CardHello() {
                   }}
                 >
                   ENTERPRISE DESIGN{" "}
-                  <Typography
-                    variant="h3"
+                  <Box
+                    component="span"
                     sx={{
                       color: "#1D741D",
                       fontWeight: "900",
+                      display: "block",
                     }}
                   >
                     SYSTEMS.
-                  </Typography>
+                  </Box>
                 </Typography>{" "}
               </ThemeProvider>
               <Typography
@@ -199,7 +200,7 @@ function CardHello() {
               committed to driving success through a comprehensive understanding
               of the financial technology landscape and a keen focus on
               innovative design systems. */}
-            </Typography>
+            </Box>
           </Typography>
         </CardContent>
       </Card>
