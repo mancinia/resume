@@ -8,7 +8,7 @@ import CardContent from "@mui/material/CardContent";
 function CardKey() {
   return (
     <>
-      <Box id="key" sx={{ paddingTop: "100px" }}></Box>
+      <Box data-section id="key" sx={{ paddingTop: "100px" }}></Box>
       <Box
         sx={{
           marginTop: "50px",

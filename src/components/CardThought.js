@@ -6,7 +6,7 @@ import { ReactComponent as ThoughtBubble } from "../thoughtBubble.svg";
 function CardThought() {
   return (
     <>
-      <Box id="thought" sx={{ paddingTop: "100px" }}></Box>
+      <Box data-section id="thought" sx={{ paddingTop: "100px" }}></Box>
       <Box
         sx={{
           marginTop: "50px",

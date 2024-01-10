@@ -8,7 +8,7 @@ import Item from "@mui/material/Box";
 function CardExpTIAA() {
   return (
     <>
-      <Box id="work" sx={{ paddingTop: "100px" }}></Box>
+      <Box data-section id="work" sx={{ paddingTop: "100px" }}></Box>
       <Box
         sx={{
           marginTop: "50px",

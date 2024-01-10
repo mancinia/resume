@@ -7,7 +7,7 @@ import CardContent from "@mui/material/CardContent";
 function CardGoals() {
   return (
     <>
-      <Box id="goals" sx={{ paddingTop: "100px" }}></Box>
+      <Box data-section id="goals" sx={{ paddingTop: "100px" }}></Box>
       <Box
         sx={{
           marginTop: "50px",
