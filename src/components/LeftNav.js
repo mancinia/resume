@@ -11,8 +11,28 @@ import { ReactComponent as NavOnBullet } from "../leftNavBulletOn.svg";
 import Box from "@mui/material/Box";
 import Item from "@mui/material/Box";
 import { ReactComponent as CoffeeCup } from "../coffeeCup.svg";
-
-function LeftNav() {
+function CustomListItem({label, id, active}) {
+  return (
+    <ListItem disablePadding>
+      <ListItemButton
+        component="a"
+        href={`#${id}`}
+        sx={{ paddingBottom: "10px" }}
+      >
+        <ListItemIcon sx={{ minWidth: "24px", maxWidth: "24px" }}>
+          {active === id ? <NavOnBullet /> : <NavOffBullet />}
+        </ListItemIcon>
+        <ListItemText
+          sx={{
+            paddingLeft: "10px",
+          }}
+          primary={label}
+        />
+      </ListItemButton>
+    </ListItem>
+  );
+}
+function LeftNav({active}) {
   return (
     <Box
       position="fixed"
@@ -44,7 +64,12 @@ function LeftNav() {
       >
         <nav aria-label="left navigation">
           <List>
-            <ListItem disablePadding>
+          <CustomListItem label="Hello" id="hello" active={active} />
+          <CustomListItem label="Thought Leadership" id="thought" active={active} />
+          <CustomListItem label="Key Accomplishments" id="key" active={active} />
+          <CustomListItem label="Professional Goals" id="goals" active={active} />
+          <CustomListItem label="Work Experience" id="work" active={active} />
+            {/* <ListItem disablePadding>
               <ListItemButton
                 component="a"
                 href="#hello"
@@ -128,7 +153,7 @@ function LeftNav() {
                   primary="Work Experience"
                 />
               </ListItemButton>
-            </ListItem>
+            </ListItem> */}
           </List>
         </nav>
       </Box>
