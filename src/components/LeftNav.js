@@ -4,10 +4,10 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import { ReactComponent as NavOffBullet } from "../leftNavBulletOff.svg";
-import { ReactComponent as NavOnBullet } from "../leftNavBulletOn.svg";
+import { ReactComponent as NavOffBullet } from "../svg/leftNavBulletOff.svg";
+import { ReactComponent as NavOnBullet } from "../svg/leftNavBulletOn.svg";
 import Box from "@mui/material/Box";
-import { ReactComponent as CoffeeCup } from "../coffeeCup.svg";
+import { ReactComponent as CoffeeCup } from "../svg/coffeeCup.svg";
 
 function CustomListItem({label, id, active}) {
   return (

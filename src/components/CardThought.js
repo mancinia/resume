@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import { ReactComponent as ThoughtBubble } from "../thoughtBubble.svg";
+import { ReactComponent as ThoughtBubble } from "../svg/thoughtBubble.svg";
 import Overline from "./Overline";
 function CardThought() {
   return (
