@@ -1,22 +1,13 @@
 import React from "react";
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
+import Overline from "./Overline";
 
 function CardGoals() {
   return (
     <>
-      <Box data-section id="goals" sx={{ paddingTop: "100px" }}></Box>
-      <Box
-        sx={{
-          marginTop: "50px",
-          backgroundColor: "#1D741D",
-          width: "30px",
-          height: "2px",
-          marginLeft: "0px",
-        }}
-      ></Box>
+      <Overline />
       <Typography
         variant="h1"
         sx={{

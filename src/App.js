@@ -42,49 +42,44 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <Nav />
-
-      <Container maxWidth="lg" sx={{ marginTop: "50px" }}>
-        <Grid container>
-          <Grid
-            xs={Hidden}
-            md={3}
-            sx={{
-              // backgroundColor: "#ffffff",
-              display: { xs: "none", sm: "none", md: "block" },
-            }}
-          >
-            <LeftNav active={activeSection} />
+    <Box sx={{display:'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden'}}>
+      <Box sx={{height: '106px', flexShrink: 0}}>
+        <Nav />
+      </Box>
+      <Box sx={{flexGrow: 1, overflowY: 'scroll'}}>
+        <Container maxWidth="lg">
+          <Grid container>
+            <Grid
+              md={3}
+              sx={{
+                display: { xs: "none", sm: "none", md: "block" },
+              }}
+            >
+              <LeftNav active={activeSection} />
+            </Grid>
+            <Grid xs={12} md={9}>
+              <Box data-section id="hello" pt={7} pb={5}>
+                <CardHello />
+              </Box>
+              <Box data-section id="thought" pt={7} pb={5}>
+                <CardThought />
+              </Box>
+              <Box data-section id="key" pt={7} pb={5}>
+                <CardKey />
+              </Box>
+              <Box data-section id="goals" pt={7} pb={5}>
+                <CardGoals />
+              </Box>
+              <Box data-section id="work" pt={7} pb={5}>
+                <CardExpTIAA />
+                <CardExpGain />
+                <CardExpBOA />
+              </Box>
+            </Grid>
           </Grid>
-          <Grid xs={12} md={9}>
-            <Box>
-              {/* Start Hello Card */}
-              <CardHello />
-              {/* End Hello Card */}
-              {/* Start Thought Leadership Card */}
-              <CardThought />
-              {/* End Thought Leadership Card */}
-              {/* Start Key Accomplishments Card */}
-              <CardKey />
-              {/* End Key Accomplishments Card */}
-              {/* Start Professional Goals Card */}
-              <CardGoals />
-              {/* End Professional Goals Card */}
-              {/* Start Work Experience - TIAA Card */}
-              <CardExpTIAA />
-              {/* End Work Experience - TIAA Card */}
-              {/* Start Work Experience - Gain Capital Card */}
-              <CardExpGain />
-              {/* End Work Experience - Gain Capital Card */}
-              {/* Start Work Experience - BOA Card */}
-              <CardExpBOA />
-              {/* End Work Experience - BOA Card */}
-            </Box>
-          </Grid>
-        </Grid>
-      </Container>
-    </div>
+        </Container>
+      </Box>
+    </Box>
   );
 }
 

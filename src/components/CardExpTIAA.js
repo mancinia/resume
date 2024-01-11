@@ -4,20 +4,12 @@ import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Item from "@mui/material/Box";
+import Overline from "./Overline";
 
 function CardExpTIAA() {
   return (
     <>
-      <Box data-section id="work" sx={{ paddingTop: "100px" }}></Box>
-      <Box
-        sx={{
-          marginTop: "50px",
-          backgroundColor: "#1D741D",
-          width: "30px",
-          height: "2px",
-          marginLeft: "0px",
-        }}
-      ></Box>
+      <Overline />
       <Typography
         variant="h1"
         sx={{

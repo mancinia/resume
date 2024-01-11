@@ -4,20 +4,11 @@ import Typography from "@mui/material/Typography";
 import Item from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-
+import Overline from "./Overline";
 function CardKey() {
   return (
     <>
-      <Box data-section id="key" sx={{ paddingTop: "100px" }}></Box>
-      <Box
-        sx={{
-          marginTop: "50px",
-          backgroundColor: "#1D741D",
-          width: "30px",
-          height: "2px",
-          marginLeft: "0px",
-        }}
-      ></Box>
+      <Overline />
       <Typography
         variant="h1"
         sx={{
