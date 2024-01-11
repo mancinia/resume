@@ -13,7 +13,7 @@ import CardGoals from "./components/CardGoals";
 import CardExpTIAA from "./components/CardExpTIAA";
 import CardExpGain from "./components/CardExpGain";
 import CardExpBOA from "./components/CardExpBOA";
-
+import SectionContainer from "./components/SectionContainer";
 function App() {
   // // OLD IntersectionObserver code, this just checked if visible on screen.
   // const [activeSection, setActiveSection] = useState(null);
@@ -86,23 +86,23 @@ function App() {
               <LeftNav active={activeSection} />
             </Grid>
             <Grid xs={12} md={9}>
-              <Box data-section id="hello" pt={7} pb={5}>
+              <SectionContainer title="Hello... My name is" id="hello">
                 <CardHello />
-              </Box>
-              <Box data-section id="thought" pt={7} pb={5}>
+              </SectionContainer>
+              <SectionContainer title="Thought Leadership" id="thought">
                 <CardThought />
-              </Box>
-              <Box data-section id="key" pt={7} pb={5}>
+              </SectionContainer>
+              <SectionContainer title="Key Accomplishments (2023)" id="key">
                 <CardKey />
-              </Box>
-              <Box data-section id="goals" pt={7} pb={5}>
+              </SectionContainer>
+              <SectionContainer title="Professional Goals" id="goals">
                 <CardGoals />
-              </Box>
-              <Box data-section id="work" pt={7} pb={5}>
+              </SectionContainer>
+              <SectionContainer title="Work Experience" id="work">
                 <CardExpTIAA />
                 <CardExpGain />
                 <CardExpBOA />
-              </Box>
+              </SectionContainer>
             </Grid>
           </Grid>
         </Container>

@@ -2,28 +2,10 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import Overline from "./Overline";
 
 function CardGoals() {
   return (
     <>
-      <Overline />
-      <Typography
-        variant="h1"
-        sx={{
-          fontSize: 30,
-          marginTop: "0px",
-          marginBottom: "10px",
-          fontFamily: "Lato",
-          fontWeight: 700,
-          marginLeft: "0px",
-        }}
-      >
-        <Typography variant="inline" sx={{ color: "#1D741D" }}>
-          P
-        </Typography>
-        rofessional Goals
-      </Typography>
       <Card
         elevation={1}
         sx={{

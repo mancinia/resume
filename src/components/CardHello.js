@@ -4,7 +4,6 @@ import Typography from "@mui/material/Typography";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Overline from "./Overline";
 const theme = createTheme();
 
 theme.typography.h3 = {
@@ -21,24 +20,6 @@ theme.typography.h3 = {
 function CardHello() {
   return (
     <>
-      <Overline />
-      <Typography
-        variant="h1"
-        sx={{
-          fontSize: 30,
-          marginTop: "0px",
-          marginBottom: "15px",
-          fontFamily: "Lato",
-          fontWeight: 700,
-          marginLeft: "0px",
-        }}
-      >
-        <Typography variant="inline" sx={{ color: "#1D741D" }}>
-          H
-        </Typography>
-        ello... My name is
-      </Typography>
-
       <Typography
         sx={{
           fontFamily: "Lato",
