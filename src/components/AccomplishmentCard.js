@@ -1,5 +1,5 @@
 import { Box, Card, CardContent, Typography } from "@mui/material";
-function AccomplishmentCard({ title, description }) {
+function AccomplishmentCard({ title = 'Missing Title', description = 'Missing a description.' }) {
   return (
     <Card
         sx={{

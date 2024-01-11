@@ -11,7 +11,7 @@ function Overline() {
       />
     );
   }
-  function SectionContainer({ children, title, ...props }) {
+  function SectionContainer({ children, title = 'Missing Section Title', ...props }) {
   return(
     <Box data-section pt={7} pb={5} {...props}>
         <Overline />
