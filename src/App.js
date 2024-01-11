@@ -10,35 +10,9 @@ import CardHello from "./components/CardHello";
 import CardThought from "./components/CardThought";
 import CardKey from "./components/CardKey";
 import CardGoals from "./components/CardGoals";
-import CardExpTIAA from "./components/CardExpTIAA";
-import CardExpGain from "./components/CardExpGain";
-import CardExpBOA from "./components/CardExpBOA";
+import CardWork from "./components/CardWork";
 import SectionContainer from "./components/SectionContainer";
 function App() {
-  // // OLD IntersectionObserver code, this just checked if visible on screen.
-  // const [activeSection, setActiveSection] = useState(null);
-  // const observer = useRef(null);
-
-  // useEffect(() => {
-  //   observer.current = new IntersectionObserver((entries) => {
-  //     const visibleSection = entries.find((entry) => entry.isIntersecting)?.target;
-  //     if (visibleSection) {
-  //       setActiveSection(visibleSection.id);
-  //     }
-  //   });
-
-  //   const sections = document.querySelectorAll('[data-section]');
-
-  //   sections.forEach((section) => {
-  //     observer.current.observe(section);
-  //   });
-
-  //   return () => {
-  //     sections.forEach((section) => {
-  //       observer.current.unobserve(section);
-  //     });
-  //   };
-  // }, []);
   const [activeSection, setActiveSection] = useState('hello');
   const scrollRef = useRef(null);
   const sections = useRef([]);
@@ -99,9 +73,7 @@ function App() {
                 <CardGoals />
               </SectionContainer>
               <SectionContainer title="Work Experience" id="work">
-                <CardExpTIAA />
-                <CardExpGain />
-                <CardExpBOA />
+                <CardWork />
               </SectionContainer>
             </Grid>
           </Grid>
