@@ -157,8 +157,8 @@ function CardHello() {
                   fontWeight: "700",
                 }}
               >
-                UI Engineering, UX, DX, CX, PX, EX, App Dev, CDE System Dev and
-                E2E Product Vision.
+                UI Engineering, FED, UX, DX, CX, PX, EX, App Dev, CDE System Dev
+                and E2E Product Vision.
               </Typography>{" "}
               {/* This journey has equipped me with invaluable knowledge and subject
               matter expertise{" "}
