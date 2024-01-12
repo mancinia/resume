@@ -90,6 +90,7 @@ function CardHello() {
               sx={{
                 fontFamily: "DM Sans",
                 fontSize: "20px",
+                fontWeight: "600",
                 lineHeight: "24px",
                 letterSpacing: 0.5,
                 marginTop: "-10px",
