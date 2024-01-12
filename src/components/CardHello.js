@@ -102,7 +102,7 @@ function CardHello() {
             <Typography
               sx={{
                 fontFamily: "DM Sans",
-                fontSize: "24px",
+                fontSize: "28px",
                 lineHeight: "24px",
                 letterSpacing: 0.5,
                 marginTop: "15px",
