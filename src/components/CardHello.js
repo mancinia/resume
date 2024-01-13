@@ -64,29 +64,32 @@ function CardHello() {
             sx={{ fontFamily: "DM Sans" }}
             color="text.secondary,"
           >
-            <Typography
-              variant="inline"
-              sx={{
-                fontSize: "80px",
-                fontWeight: 700,
-                color: "#1D741D",
-              }}
-            >
-              27
+            <Box sx={{ marginTop: "30px" }}>
+              <Typography
+                variant="inline"
+                sx={{
+                  fontSize: "80px",
+                  fontWeight: 700,
+                  color: "#1D741D",
+                  lineHeight: "40px",
+                }}
+              >
+                27
+                <Typography
+                  variant="inline"
+                  sx={{ fontSize: "30px", fontWeight: 700 }}
+                >
+                  +
+                </Typography>
+              </Typography>{" "}
               <Typography
                 variant="inline"
                 sx={{ fontSize: "30px", fontWeight: 700 }}
               >
-                +
+                Years of developing great talent & teams.
               </Typography>
-            </Typography>{" "}
-            <Typography
-              variant="inline"
-              sx={{ fontSize: "30px", fontWeight: 700 }}
-            >
-              Years of Fintech Leadership
-            </Typography>
-            <Typography
+            </Box>
+            {/* <Typography
               sx={{
                 fontFamily: "DM Sans",
                 fontSize: "20px",
@@ -98,14 +101,14 @@ function CardHello() {
               }}
             >
               Finding and developing great talent & teams.
-            </Typography>
+            </Typography> */}
             <Typography
               sx={{
                 fontFamily: "DM Sans",
                 fontSize: "28px",
                 lineHeight: "24px",
                 letterSpacing: 0.5,
-                marginTop: "15px",
+                marginTop: "25px",
               }}
             >
               I specialize in:{" "}
