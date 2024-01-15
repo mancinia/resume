@@ -1,20 +1,20 @@
 import React from "react";
-import { Box, Typography, Card, CardContent} from "@mui/material";
+import { Box, Typography, Card, CardContent } from "@mui/material";
 
 function ExperienceCard({
-    company = '', 
-    date = '', 
-    title = '', 
-    summary = '', 
-    experience = [], 
-    active = false
+  company = "",
+  date = "",
+  title = "",
+  summary = "",
+  experience = [],
+  active = false,
 }) {
   return (
     <Card
       elevation={1}
       sx={{
         maxWidth: "750px",
-        backgroundColor: active ? '#E2EFE3' : '#F3F7ED',
+        backgroundColor: active ? "#E2EFE3" : "#F3F7ED",
         padding: "0px",
         paddingRight: "70px",
         border: "solid 2px #ffffff",
@@ -92,9 +92,9 @@ function ExperienceCard({
             <Box
               sx={{
                 typography: "body1",
-                fontSize: 16,
-                marginTop: "0px",
-                lineHeight: "20px",
+                fontSize: 18,
+                marginTop: "5px",
+                lineHeight: "28px",
                 fontFamily: "DM Sans",
                 fontWeight: 500,
                 letterSpacing: 0.4,
@@ -116,20 +116,22 @@ function ExperienceCard({
               EXPERIENCE:
             </Box>
             {experience.map((item) => (
-                <Box
-                    sx={{
-                        typography: "body1",
-                        fontSize: 18,
-                        marginTop: "10px",
-                        marginLeft: "10px",
-                        lineHeight: "20px",
-                        fontFamily: "DM Sans",
-                        fontWeight: 700,
-                        letterSpacing: 0.4,
-                    }}
-                >
-                    - {item}
-                </Box>
+              <Box
+                sx={{
+                  typography: "body1",
+                  fontSize: 18,
+                  marginTop: "10px",
+                  marginLeft: "10px",
+                  lineHeight: "20px",
+                  fontFamily: "DM Sans",
+                  fontWeight: 400,
+                  letterSpacing: 0.4,
+                }}
+              >
+                <ul sx={{ listStyleType: "none" }}>
+                  <li> {item}</li>
+                </ul>
+              </Box>
             ))}
           </Box>
         </Box>
