@@ -25,26 +25,38 @@ function CardWork() {
         company="Gain Capital.com"
         date="January 2011 - 2011 (8 mo)"
         title="Sr. VP Tech Mgr-Sys Eng Analyst / VP Front End Development Manager"
-        summary="As a Sr. Technology Manager I took part in very high profile transitions, projects and had a great opportunity to learn many aspects of running a successful online platform, which generated over $80 million in annual revenue."
+        summary="In my roles at GAIN Capital and Empire Concierge, I demonstrated a dynamic skill set encompassing design, prototyping, eBook creation, and coding. Notably, I played a key role in designing and coding interfaces for GAIN Capital's Forex.com and inthemoney.com, along with conceptualizing and coding the interface for Empire Concierge's concierge platform."
         experience={[
-          "2 enterprise & 3 platform teams",
-          "7 platforms, 17 design languages, & 350+ application frontends",
-          "Agile Release Team",
-          "Major Epic management and thought leadership",
-          "Enterprise Design System + Micro Frontend",
+          "Led the design, prototyping, eBook creation, and coding initiatives.",
+          "Developed and implemented social media streams on platforms like Facebook, Twitter, and Google Places.",
+          "Utilized HTML, CSS, Flash, and jQuery to construct marketing sites, application interfaces, and administration panels.",
+          "Worked on a Ruby on Rails platform with a Git repository.",
+          "Emphasized strong attention to SEO and analytic data.",
+          "Applied Lean UX and Agile methodologies, adhering to the Model-View-Controller pattern.",
         ]}
       />
       <ExperienceCard
         company="Bank of America.com"
         date="January 1999 - 2011 (11 yr)"
         title="Sr. VP Tech Mgr-Sys Eng Analyst / VP Front End Development Manager"
-        summary="As a Sr. Technology Manager I took part in very high profile transitions, projects and had a great opportunity to learn many aspects of running a successful online platform, which generated over $80 million in annual revenue."
+        summary="With a robust background spanning 16 years of hands-on coding, I have excelled in managing and maintaining the front-end development of the baisidirect.com brokerage consumer portal. My expertise includes overseeing the administration portal interface, integrating Interwoven content management system during site redesign, and managing the daily operations of project development lifecycles."
         experience={[
-          "2 enterprise & 3 platform teams",
-          "7 platforms, 17 design languages, & 350+ application frontends",
-          "Agile Release Team",
-          "Major Epic management and thought leadership",
-          "Enterprise Design System + Micro Frontend",
+          "Managed and maintained front-end development for the brokerage consumer portal.",
+          "Oversaw the administration portal interface supporting baisidirect.com.",
+          "Planned and successfully integrated the Interwoven content management system into a site redesign.",
+          "Managed project development lifecycles for Dev, QA, UAT, and Staging, ensuring seamless operations.",
+          "Orchestrated the creation and merging of repository branches for all development environments.",
+          "Oversaw deployments between Dev, QA, UAT, and Staging, ensuring a smooth transition.",
+          "Conducted detailed reviews of technical documentation, including BRDs, Wireframes, High, and Low level documents.",
+          "Administered and maintained ticket tracker and wiki applications (Atlassian: Jira and Confluence).",
+          "Spearheaded the creation of new processes and policies for release management to support rapid application development.",
+          "Designed and developed application prototypes for executive management presentations.",
+          "Integrated ADA/WAI-Aria best practices for enhanced accessibility in the brokerage consumer portal.",
+          "Successfully managed 3rd party UI integrations for brokerage research, quotes, and news.",
+          "Built and maintained micro sites for new product releases and company mergers.",
+          "Demonstrated an advanced understanding of search engine optimization and analytics.",
+          "Recognized with 4 company awards and nominated for the Award of Excellence at Bank of America.",
+          "Maintained a strong focus on driving the bank's core values, vision, and brand into the brokerage consumer portal.",
         ]}
       />
     </>

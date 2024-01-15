@@ -94,9 +94,9 @@ function ExperienceCard({
                 typography: "body1",
                 fontSize: 18,
                 marginTop: "5px",
-                lineHeight: "28px",
+                lineHeight: "26px",
                 fontFamily: "DM Sans",
-                fontWeight: 500,
+                fontWeight: 600,
                 letterSpacing: 0.4,
               }}
             >
