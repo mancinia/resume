@@ -6,7 +6,7 @@ function CardWork() {
     <>
       <ExperienceCard
         company="TIAA.org"
-        date="January 2011 - Present (12 yr) – New York, NY"
+        date="January 2011 - Present (12.6 yr) – New York, NY"
         title="Director, Sr Lead Development Manager, UI Engineering"
         summary="My tenure at TIAA has been dedicated to cultivating exceptional teams and talent, driving the modernization of our digital landscape. I championed the consolidation of disparate systems into a unified Enterprise Design & Micro-Frontend system, resulting in rapid and successful outcomes. I successfully managed and developed over 350 application frontends across various platforms."
         experience={[
@@ -63,14 +63,15 @@ function CardWork() {
         company="Prime Data"
         date="January 2011 - 2011 (8 mo) – New York, NY"
         title="Front End Design & Development - Freelance"
-        summary="In my role at GAIN Capital, I demonstrated a dynamic skill set encompassing design, prototyping, eBook creation, and coding. Notably, I played a key role in designing and coding interfaces for GAIN Capital's Forex.com and inthemoney.com"
+        summary="In my role as a seasoned professional, I have successfully managed and maintained front-end development for the PrimeData corporate website. Additionally, I excel in building conceptual designs for corporate clients' websites and coding interfaces for PrimaData's corporate client consumer portals. I have a proven track record of designing and building interfaces for high-profile projects, including the Bear Stearns conversion of the Polar software to BearPrime.com and the enhancement and modernization of Royal Bank of Canada's hedge fund website. Furthermore, I have been entrusted with the responsibility of directing corporate marketing strategies across web and print channels.
+"
         experience={[
-          "Led the design, prototyping, eBook creation, and coding initiatives.",
-          "Developed and implemented social media streams on platforms like Facebook, Twitter, and Google Places.",
-          "Utilized HTML, CSS, Flash, and jQuery to construct marketing sites, application interfaces, and administration panels.",
-          "Worked on a Ruby on Rails platform with a Git repository.",
-          "Emphasized strong attention to SEO and analytic data.",
-          "Applied Lean UX and Agile methodologies, adhering to the Model-View-Controller pattern.",
+          "Managed and maintained front-end development for the PrimeData corporate website.",
+          "Built conceptual designs for corporate client websites.",
+          "Coded interfaces for PrimaData's corporate client consumer portals.",
+          "Designed and built the interface for the Bear Stearns Prime Brokerage Polar CD software to BearPrime.com.",
+          "Enhanced and modernized the Royal Bank of Canada's hedge fund website.",
+          "Led the direction of corporate marketing initiatives through web and print channels.",
         ]}
       />
       <ExperienceCard
