@@ -32,7 +32,11 @@ function ExperienceCard({
             padding: "0px",
           }}
         >
-          <Box>
+          <Box
+            sx={{
+              display: { xs: "none", sm: "none", md: "block" },
+            }}
+          >
             <img src="CardBulletBlue.png" alt="bullet" />
           </Box>
           <Box sx={{ marginLeft: "5px" }}>

@@ -6,9 +6,9 @@ function CardWork() {
     <>
       <ExperienceCard
         company="TIAA.org"
-        date="January 2011 - Present (12 yr)"
+        date="January 2011 - Present (12 yr) – New York, NY"
         title="Director, Sr Lead Development Manager, UI Engineering"
-        summary="My tenure at TIAA has been dedicated to cultivating exceptional teams and talent, driving the modernization of our digital landscape. I championed best practices in good housekeeping, consolidating disparate systems into a unified Enterprise Design & Micro-Frontend system, resulting in rapid and successful outcomes. I successfully managed and developed over 350 application frontends across various platforms."
+        summary="My tenure at TIAA has been dedicated to cultivating exceptional teams and talent, driving the modernization of our digital landscape. I championed the consolidation of disparate systems into a unified Enterprise Design & Micro-Frontend system, resulting in rapid and successful outcomes. I successfully managed and developed over 350 application frontends across various platforms."
         experience={[
           "Led 2 enterprise and 3 platform teams, overseeing 7 platforms, 17 design languages, and delivering 350+ application frontends.",
           "Streamlined the developer experience (DX) by integrating with the DSM and implemented quality-of-life tools to proactively address common issues.",
@@ -22,10 +22,10 @@ function CardWork() {
         active
       />
       <ExperienceCard
-        company="Gain Capital.com"
-        date="January 2011 - 2011 (8 mo)"
-        title="Sr. VP Tech Mgr-Sys Eng Analyst / VP Front End Development Manager"
-        summary="In my roles at GAIN Capital and Empire Concierge, I demonstrated a dynamic skill set encompassing design, prototyping, eBook creation, and coding. Notably, I played a key role in designing and coding interfaces for GAIN Capital's Forex.com and inthemoney.com, along with conceptualizing and coding the interface for Empire Concierge's concierge platform."
+        company="Gain Capital"
+        date="January 2011 - 2011 (8 mo) – New York, NY"
+        title="Front End Design & Development - Freelance"
+        summary="In my role at GAIN Capital, I demonstrated a dynamic skill set encompassing design, prototyping, eBook creation, and coding. Notably, I played a key role in designing and coding interfaces for GAIN Capital's Forex.com and inthemoney.com"
         experience={[
           "Led the design, prototyping, eBook creation, and coding initiatives.",
           "Developed and implemented social media streams on platforms like Facebook, Twitter, and Google Places.",
@@ -37,7 +37,7 @@ function CardWork() {
       />
       <ExperienceCard
         company="Bank of America.com"
-        date="January 1999 - 2011 (11 yr)"
+        date="January 1999 - 2011 (11 yr) – New York, NY"
         title="Sr. VP Tech Mgr-Sys Eng Analyst / VP Front End Development Manager"
         summary="With a robust background spanning 16 years of hands-on coding, I have excelled in managing and maintaining the front-end development of the baisidirect.com brokerage consumer portal. My expertise includes overseeing the administration portal interface, integrating Interwoven content management system during site redesign, and managing the daily operations of project development lifecycles."
         experience={[
@@ -57,6 +57,34 @@ function CardWork() {
           "Demonstrated an advanced understanding of search engine optimization and analytics.",
           "Recognized with 4 company awards and nominated for the Award of Excellence at Bank of America.",
           "Maintained a strong focus on driving the bank's core values, vision, and brand into the brokerage consumer portal.",
+        ]}
+      />
+      <ExperienceCard
+        company="Prime Data"
+        date="January 2011 - 2011 (8 mo) – New York, NY"
+        title="Front End Design & Development - Freelance"
+        summary="In my role at GAIN Capital, I demonstrated a dynamic skill set encompassing design, prototyping, eBook creation, and coding. Notably, I played a key role in designing and coding interfaces for GAIN Capital's Forex.com and inthemoney.com"
+        experience={[
+          "Led the design, prototyping, eBook creation, and coding initiatives.",
+          "Developed and implemented social media streams on platforms like Facebook, Twitter, and Google Places.",
+          "Utilized HTML, CSS, Flash, and jQuery to construct marketing sites, application interfaces, and administration panels.",
+          "Worked on a Ruby on Rails platform with a Git repository.",
+          "Emphasized strong attention to SEO and analytic data.",
+          "Applied Lean UX and Agile methodologies, adhering to the Model-View-Controller pattern.",
+        ]}
+      />
+      <ExperienceCard
+        company="Cyber Axioma"
+        date="January 2011 - 2011 (8 mo) – New York, NY"
+        title="Front End Design & Development - Freelance"
+        summary="In my role at GAIN Capital, I demonstrated a dynamic skill set encompassing design, prototyping, eBook creation, and coding. Notably, I played a key role in designing and coding interfaces for GAIN Capital's Forex.com and inthemoney.com"
+        experience={[
+          "Led the design, prototyping, eBook creation, and coding initiatives.",
+          "Developed and implemented social media streams on platforms like Facebook, Twitter, and Google Places.",
+          "Utilized HTML, CSS, Flash, and jQuery to construct marketing sites, application interfaces, and administration panels.",
+          "Worked on a Ruby on Rails platform with a Git repository.",
+          "Emphasized strong attention to SEO and analytic data.",
+          "Applied Lean UX and Agile methodologies, adhering to the Model-View-Controller pattern.",
         ]}
       />
     </>
