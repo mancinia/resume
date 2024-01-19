@@ -13,10 +13,10 @@ function ExperienceCard({
     <Card
       elevation={1}
       sx={{
-        maxWidth: "750px",
+        maxWidth: "810px",
         backgroundColor: active ? "#E2EFE3" : "#F3F7ED",
         padding: "0px",
-        paddingRight: "70px",
+        paddingRight: "10px",
         border: "solid 2px #ffffff",
         marginBottom: "5px",
       }}
