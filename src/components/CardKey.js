@@ -12,11 +12,28 @@ function CardKey() {
     >
       <AccomplishmentCard
         title="Digital Modernization"
-        description={<>Consolidation of 7 Platforms, 17 Design Languages & 350 Applications to 1 Enterprise <Box component="span" sx={{ color: "#1D741D", fontWeight: "700" }}>MFE</Box> Design System.</>}
+        description={
+          <>
+            Consolidation of 7 Platforms, 17 Design Languages & 350 Applications
+            to 1 Enterprise{" "}
+            <Box component="span" sx={{ color: "#1D741D", fontWeight: "700" }}>
+              MFE
+            </Box>{" "}
+            Design System.
+          </>
+        }
       />
       <AccomplishmentCard
         title="Full Stack CDE"
-        description={<>Developer Experience <Box component="span" sx={{ color: "#1D741D", fontWeight: "700" }}>(DX)</Box> Easy Button. E2E App Dev for rapid and consistant outcomes.</>}
+        description={
+          <>
+            Developer Experience{" "}
+            <Box component="span" sx={{ color: "#1D741D", fontWeight: "700" }}>
+              (DX)
+            </Box>{" "}
+            Easy Button. E2E App Dev for rapid and consistant outcomes.
+          </>
+        }
       />
       <AccomplishmentCard
         title="Cookieless Domain CDN"
@@ -28,7 +45,19 @@ function CardKey() {
       />
       <AccomplishmentCard
         title="Merchandising"
-        description={<>1 Core <Box component="span" sx={{ color: "#1D741D", fontWeight: "700" }}>Atomic</Box> product that builds all products. Build once & consume across the <Box component="span" sx={{ color: "#1D741D", fontWeight: "700" }}>Omni</Box> channel.</>}
+        description={
+          <>
+            1 Core{" "}
+            <Box component="span" sx={{ color: "#1D741D", fontWeight: "700" }}>
+              Atomic
+            </Box>{" "}
+            product that builds all products. Build once & consume across the{" "}
+            <Box component="span" sx={{ color: "#1D741D", fontWeight: "700" }}>
+              Omni
+            </Box>{" "}
+            channel.
+          </>
+        }
       />
       <AccomplishmentCard
         title="Operations"
@@ -49,6 +78,14 @@ function CardKey() {
       <AccomplishmentCard
         title="Consumers"
         description="1 Catalog for all developers to shop from."
+      />
+      <AccomplishmentCard
+        title="CIO Award Submission"
+        description="E2E DSM+Dev System."
+      />
+      <AccomplishmentCard
+        title="Patent Submission"
+        description="E2E DSM+Dev System."
       />
     </Box>
   );
