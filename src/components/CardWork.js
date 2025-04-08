@@ -76,17 +76,10 @@ function CardWork() {
       />
       <ExperienceCard
         company="Cyber Axioma"
-        date="January 2011 - 2011 (8 mo) – New York, NY"
+        date="February 1995 – December 1996 – New York, NY"
         title="Front End Design & Development - Freelance"
-        summary="In my role at GAIN Capital, I demonstrated a dynamic skill set encompassing design, prototyping, eBook creation, and coding. Notably, I played a key role in designing and coding interfaces for GAIN Capital's Forex.com and inthemoney.com"
-        experience={[
-          "Led the design, prototyping, eBook creation, and coding initiatives.",
-          "Developed and implemented social media streams on platforms like Facebook, Twitter, and Google Places.",
-          "Utilized HTML, CSS, Flash, and jQuery to construct marketing sites, application interfaces, and administration panels.",
-          "Worked on a Ruby on Rails platform with a Git repository.",
-          "Emphasized strong attention to SEO and analytic data.",
-          "Applied Lean UX and Agile methodologies, adhering to the Model-View-Controller pattern.",
-        ]}
+        summary="Where I got my start."
+        experience={["Designed and coded web sites for company clients"]}
       />
     </>
   );
